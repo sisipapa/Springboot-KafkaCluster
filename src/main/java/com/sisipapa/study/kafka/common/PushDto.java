@@ -1,4 +1,4 @@
-package com.sisipapa.study.kafka.producer;
+package com.sisipapa.study.kafka.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

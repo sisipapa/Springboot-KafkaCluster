@@ -1,6 +1,6 @@
 package com.sisipapa.study.kafka.consumer;
 
-import com.sisipapa.study.kafka.producer.PushDto;
+import com.sisipapa.study.kafka.common.PushDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.MessageHeaders;

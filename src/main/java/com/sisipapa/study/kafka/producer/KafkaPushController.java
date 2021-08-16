@@ -1,5 +1,6 @@
 package com.sisipapa.study.kafka.producer;
 
+import com.sisipapa.study.kafka.common.PushDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

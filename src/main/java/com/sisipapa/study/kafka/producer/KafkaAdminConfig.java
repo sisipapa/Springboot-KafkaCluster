@@ -13,7 +13,7 @@ import java.util.Map;
 /**
  * KafkaAdmin 객체 초기화하고 어플리케이션 로딩 시 topicName에 해당하는 Topic을 등록한다. topicName이름의 Topic이 등록되어 있으면 아무런 동작을 하지 않는다.
  *
- * public NewTopic(String name, int numPartitions, short replicationFactor) {
+ *     public NewTopic(String name, int numPartitions, short replicationFactor) {
  *         this(name, Optional.of(numPartitions), Optional.of(replicationFactor));
  *     }
  *
@@ -39,8 +39,8 @@ public class KafkaAdminConfig {
         return new KafkaAdmin(configs);
     }
 
-//    @Bean
-//    public NewTopic newTopic() {
-//        return new NewTopic(topicName, 3, (short) 3);
-//    }
+    @Bean
+    public NewTopic newTopic() {
+        return new NewTopic(topicName, 3, (short) 3);
+    }
 }

@@ -1,5 +1,6 @@
 package com.sisipapa.study.kafka.producer;
 
+import com.sisipapa.study.kafka.common.PushDto;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,6 +1,6 @@
 package com.sisipapa.study.kafka.consumer;
 
-import com.sisipapa.study.kafka.producer.PushDto;
+import com.sisipapa.study.kafka.common.PushDto;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
