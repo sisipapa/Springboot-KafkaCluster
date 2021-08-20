@@ -267,7 +267,7 @@ Received Message: PushDto(token=token0004, message=message0004), headers: {kafka
 Kafka Cluster 구성이후 Springboot와의 연동테스트를 진행해 보았다. 다음에 시간이 된다면 Kafka Cluster의 설정값들에 대한 정리를 추가로 해봐야 겠다.  
 
 ## 참고
-[[SpringBoot] Kafka 연동하기](https://victorydntmd.tistory.com/348)
+[[SpringBoot] Kafka 연동하기](https://victorydntmd.tistory.com/348)  
 [Kafka Cluster 구성하고 Spring Boot에서 Kafka 사용하기](https://sup2is.github.io/2020/06/03/spring-boot-with-kafka-cluster.html)  
   
 [SISIPAPA 노트연결](https://sisipapa.github.io/blog/2021/08/15/Springboot-Kafka-%EC%84%A4%EC%A0%95/)
